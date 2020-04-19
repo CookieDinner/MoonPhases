@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">MoonPhases</string>
+    <string name="ustawienia">Ustawienia</string>
+    <string name="title_activity_settings" translatable="false">Settings</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="arrowleft" translatable="false"><![CDATA[<]]></string>
+    <string name="arrowright" translatable="false"><![CDATA[>]]></string>
+    <string name="last_newmoon">Poprzedni nów:</string>
+    <string name="next_fullmoon">Następna pełnia:</string>
+    <string name="moon_phases">Fazy Księżyca</string>
+    <string name="today">Dzisiaj:</string>
+    <string name="fullmoons_in_year">Pełnie w roku</string>
+    <string name="algorithm_choice">Wybór algorytmu:</string>
+    <string name="hemisphere">Wybór półkuli:</string>
+    <string name="northern">Północna</string>
+    <string name="southern">Południowa</string>
+</resources>

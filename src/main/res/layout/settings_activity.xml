@@ -1,0 +1,115 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A7A7A"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/algorithm_choice"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/algorithmGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/simple"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:buttonTint="#FFFFFF"
+                android:text="Simple"
+                android:textColor="#FFFDFD"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/conway"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:buttonTint="#FFFFFF"
+                android:text="Conway"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/trig1"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:buttonTint="#FFFFFF"
+                android:text="Trig1"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/trig2"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:buttonTint="#FFFFFF"
+                android:text="Trig2"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/hemisphere"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/hemisphereGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/northern"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:buttonTint="#FFFFFF"
+                android:drawableTint="#FFFFFF"
+                android:text="@string/northern"
+                android:textColor="#FFFDFD"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/southern"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:buttonTint="#FFFFFF"
+                android:text="@string/southern"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

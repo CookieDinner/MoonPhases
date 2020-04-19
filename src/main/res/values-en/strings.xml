@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ustawienia">Settings</string>
+    <string name="last_newmoon">Last newmoon:</string>
+    <string name="next_fullmoon">Next fullmoon:</string>
+    <string name="moon_phases">Moon Phases</string>
+    <string name="today">Today:</string>
+    <string name="fullmoons_in_year">Fullmoons in a year</string>
+    <string name="algorithm_choice">Algorithm choice:</string>
+    <string name="hemisphere">Hemisphere choice:</string>
+    <string name="northern">Northern</string>
+    <string name="southern">Southern</string>
+</resources>
